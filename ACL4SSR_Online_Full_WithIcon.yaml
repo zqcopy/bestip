@@ -1,3 +1,8 @@
+proxies:
+  - name: 本地Socks5
+    type: socks5
+    server: 127.0.0.1
+    port: 30000
 proxy-groups:
   - name: 节点选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
